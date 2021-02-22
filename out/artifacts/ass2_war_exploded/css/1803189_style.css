@@ -1,0 +1,72 @@
+/*Kuzey Cimen - 1803189 - kc18182*/
+/*HTML and body styles.*/
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*Body styles.*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header and footer styles.*/
+#header, #footer {
+    height: 100px;
+    text-align: center;
+    background-color: mediumseagreen;
+    border: 1px solid black;
+}
+
+/*Main section between header and footer styles.*/
+#main {
+    flex: auto;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Table styles.*/
+table {
+    border-collapse: collapse;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*Table header and column styles.*/
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 4px;
+}
+
+/*Input text boxes style.*/
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*Input buttons and submit buttons styles.*/
+input[type=button], input[type=submit] {
+    background-color: darkkhaki;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Input buttons hover and submit buttons hover styles.*/
+input[type=button]:hover, input[type=submit]:hover {
+    background-color: darkgoldenrod;
+}
